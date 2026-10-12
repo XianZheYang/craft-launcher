@@ -220,6 +220,9 @@ affiliated with, sponsored by or endorsed by any of these companies.";
 
 /// ArtCraft's website.
 pub const WEBSITE_URL: &str = "https://getartcraft.com";
+/// The GitHub account every Craft App's repository lives under: the only one the launcher
+/// installs from, whatever the release feed says.
+pub const GITHUB_OWNER: &str = "storytold";
 /// ArtCraft on GitHub: every Craft App's source.
 pub const GITHUB_URL: &str = "https://github.com/storytold";
 /// ArtCraft's social accounts: (service, URL). Shown as small icons, less prominent than Discord.
